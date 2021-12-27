@@ -1,0 +1,6 @@
+type: module
+name: Request logger
+description: "A module that logs all request's route name and base path into the dblog."
+package: LH
+core_version_requirement: ^8.8 || ^9
+php: 7.2

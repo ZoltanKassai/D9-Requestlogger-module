@@ -1,0 +1,6 @@
+services:
+  requestlogger.request_subscriber:
+    class: Drupal\requestlogger\EventSubscriber\RequestLoggerSubscriber
+    arguments: ['@logger.factory', 'get']
+    tags:
+      - { name: event_subscriber }
